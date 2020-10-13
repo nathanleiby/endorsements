@@ -36,6 +36,7 @@ const data = {
 
 const config = {
   displayModeBar: false, // this is the line that hides the bar.
+  staticPlot: true,
 };
 
 var layout = {
