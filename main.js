@@ -5,7 +5,7 @@ const data = {
     name: "yes",
     orientation: "h",
     marker: {
-      color: "rgba(55,255,55,0.6)",
+      color: "#0000FF",
       width: 1,
     },
     type: "bar",
@@ -17,7 +17,7 @@ const data = {
     orientation: "h",
     type: "bar",
     marker: {
-      color: "rgba(100,100,100,0.6)",
+      color: "#F4F4F4",
       width: 1,
     },
   },
@@ -28,7 +28,7 @@ const data = {
     orientation: "h",
     type: "bar",
     marker: {
-      color: "rgba(255,55,55,0.6)",
+      color: "#FFB03B",
       width: 1,
     },
   },
