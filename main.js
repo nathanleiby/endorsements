@@ -52,8 +52,8 @@ var layout = {
 function run() {
   // Fetch data
   Plotly.d3.csv(
-    // "https://raw.githubusercontent.com/apodagrosi/datasets/master/PlotlyTest_Summary_SalesByDealerByYear.csv",
-    "endorsements.csv",
+    "https://raw.githubusercontent.com/nathanleiby/endorsements/main/endorsements.csv",
+    // "endorsements.csv",
     (err, rows) => {
       console.log({ rows });
 
