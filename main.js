@@ -83,6 +83,7 @@ function run() {
 
       Object.keys(items)
         .sort()
+        .reverse()
         .forEach((name) => {
           const results = items[name];
           Object.keys(results).forEach((resultType) => {
