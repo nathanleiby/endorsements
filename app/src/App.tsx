@@ -56,8 +56,7 @@ var layout = {
   },
 };
 
-const ENDORSEMENTS_URL =
-  "https://raw.githubusercontent.com/nathanleiby/endorsements/main/endorsements.csv";
+const ENDORSEMENTS_URL = `${process.env.PUBLIC_URL}/endorsements.csv`;
 async function fetchData() {
   return new Promise(function (resolve, reject) {
     Plotly.d3.csv(ENDORSEMENTS_URL, function (err: any, rows: any[]) {
