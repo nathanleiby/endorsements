@@ -1,5 +1,6 @@
 {
   "name": "app",
+  "homepage": "https://nathanleiby.github.io/endorsements",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@types/react": "^16.9.52",
     "@types/react-dom": "^16.9.8",
     "@types/react-plotly.js": "^2.2.4",
+    "gh-pages": "^3.1.0",
     "plotly.js": "^1.56.0",
     "react": "^16.13.1",
     "react-async": "^10.0.1",
@@ -22,7 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts --max_old_space_size=4096 build && rm -rf ../docs && cp -r build ../docs",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
