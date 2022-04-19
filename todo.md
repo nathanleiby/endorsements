@@ -1,0 +1,2 @@
+- [ ] Allow hovering or similar to know what the prop means
+- [ ] Link out to the endorser guides that this data was drawn from
